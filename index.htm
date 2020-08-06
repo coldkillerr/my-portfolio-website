@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+</head>
+<body>
+<div class="background">
+	<div class="nav">
+		<a class="a active" href="#">HOME</a>
+		<a class="b" href="#">ABOUT</a>
+		<a class="c" href="#">WHAT I DO</a>
+		<a class="d" href="#">CONTACT ME </a>
+
+	</div>
+	<div class="content">
+		<div class="home">
+			<h1> &nbsp; NISHIT JAIN</h1>
+			<h3> &nbsp;&nbsp;&nbsp; CERTIFIED NOOB</h3>
+		</div>
+		 <div class="about">
+		 	<img src="nishit.jpg" style="display: block; margin-left: auto;margin-right: auto;width:300px;height: 300px;">
+ 			 <br>
+			 <p>
+			 I am Nishit Jain ,19 years old , a resident of <b>Kalyan </b>city ,currently studying in <b>Third Year (I.T.)</b> in <b>Datta Meghe College of Engineering</b>.<br><br>
+
+			 I am a member of <b>NSS</b> and the <b>co-head of Design committee of E-CELL DMCE </b>. <br><br>
+			 <b>Career Objective:</b><br>
+
+			To gain employment with a company or institution that offers me a consistently positive atmosphere to learn new technologies and implement them .
+
+			  </p>
+
+		</div> 
+		<div class="skills">
+
+			<br><br>
+			<h2 align="center">  MY HOBBIES </h2>
+
+			<div class="middle">
+       <f class="btn">
+           <i class="fas fa-code"></i>
+       </f>
+         
+       <f class="btn">
+          <i class="fas fa-swimmer"></i>
+       </f>
+          
+          
+        <f class="btn">
+           <i class="fas fa-book-open"></i>
+       </f>
+          
+          
+          
+   </div>
+
+			 <div class="container">
+      
+
+      <div class="select-box">
+        <div class="options-container">
+          <div class="option">
+            <input
+              type="radio"
+              class="radio"
+              id="automobiles"
+              name="category"
+            />
+            <label for="automobiles">
+            	<a href="https://coursera.org/share/b66cfd889d6ce03f6cea59fc7a0b4f03"style="text-decoration:none;" target="_blank" class="ahref">Google IT Technical Support</a></label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="film" name="category" />
+            <label for="film">
+            	<a href="https://coursera.org/share/7a1dfa3819e62275668680e61af16a1c"style="text-decoration:none;background-color: transparent;"target="_blank" class='ahref'>Crash Course in Python</a></label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="science" name="category" />
+            <label for="science">
+            	<a href="https://coursera.org/share/4212f7fb6a0a62d822a105cb5dc587a0"style="text-decoration:none;"target="_blank" class='ahref'>Using Python To Interact with the OS</a>
+            </label>
+          </div>
+
+        </div>
+
+        <div class="selected">
+          CERTIFICATIONS
+        </div>
+      </div>
+    </div>
+
+			
+			
+
+
+
+
+			
+		</div>
+		<div class="academics">
+			<div class="middle">
+       <a class="btn" >
+           <i class="fab fa-facebook-f"></i>
+       </a>
+
+       <a class="btn" >
+          <i class="fab fa-linkedin-in"></i>
+       </a>
+
+       <a class="btn">
+          <i class="fab fa-github"></i>
+       </a>
+
+       <a class="btn">
+           <i class="fab fa-instagram"></i>
+       </a>
+          
+          
+          
+          
+          
+   </div>
+		</div>
+		
+
+		
+</div>
+</div>
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		$('a').click(function(){
+			//alert("i am a click");
+			var selected = $(this);
+			$('a').removeClass('active');
+			$(selected).addClass('active');
+		});
+
+		var $a=$('.a'),
+		$b=$('.b'),
+		$c=$('.c'),
+		$d=$('.d'),
+		
+		$home=$('.home'),
+		$about=$('.about');
+		$skills=$('.skills');
+		$academics=$('.academics');
+		
+		$a.click(function()
+		{
+			$home.fadeIn();
+			$about.fadeOut();
+			$skills.fadeOut();
+			$academics.fadeOut();
+			
+
+		});
+		$b.click(function()
+		{
+			$about.fadeIn();
+			$home.fadeOut();
+			$skills.fadeOut();
+			$academics.fadeOut();
+			
+			
+
+		});
+		$c.click(function()
+		{
+			
+			$skills.fadeIn();
+			$about.fadeOut();
+			$home.fadeOut();
+			$academics.fadeOut();
+			
+			
+
+		});
+		$d.click(function()
+		{
+			
+			$academics.fadeIn();
+			$about.fadeOut();
+			$home.fadeOut();
+			$skills.fadeOut();
+			
+			
+
+		});
+
+	});
+	
+</script>
+</div>
+</body>
+</html>
+
+<!-- const selected = document.querySelector(".selected");
+const optionsContainer = document.querySelector(".options-container");
+
+const optionsList = document.querySelectorAll(".option");
+
+selected.addEventListener("click", () => {
+  optionsContainer.classList.toggle("active");
+});
+
+optionsList.forEach(o => {
+  o.addEventListener("click", () => {
+    
+  });
+}); -->
