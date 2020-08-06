@@ -191,26 +191,16 @@ margin-bottom: 20px;
 }
 .academics
 {
-	
+	top: 10%;
 	width: 1700;
 	position: relative;
 	right: auto;
-	top: 100%;
+	top: 30%;
 	
 	color: black;
 	font-family: calibri;
-	padding-top: 200px;
+	padding :200px 60px;
 	display: none;
-}
-
-.academics a {
-
-	background-color: white;
-	color: black;
-	
-	width:10%;
-
-
 }
 
 
@@ -321,7 +311,6 @@ h2 {
     
 }
 
-
 .btn{
     display: inline-block;
     width: 100px;
@@ -357,7 +346,28 @@ h2 {
 
 
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color:black;
+}
 
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color:white;
+  text-align:center;
+}
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color:gray;
+  color:black;
+  text-align:center;
+}
 /*tr:nth-child(even) {
   background-color: 	#D3D3D3;
 }*/
