@@ -3,14 +3,24 @@
 	padding: 0;
 
 }
-html , body
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} 
+body
 {
-	width: 100%;
-	height: 100%;
+
+
+    font-family: 'Nunito', sans-serif;
+	width: 100vh;
+	height: 100vh;
 	background-color: #F0FFFF;
 	
 
-    font-family: 'Luckiest Guy', cursive;
+    /*font-family: 'Luckiest Guy', cursive;*/
+
     transition: all 0.4s;
    
 
@@ -51,7 +61,7 @@ a {
 {
 	text-decoration: none;
 
-	 font-family: verdana;
+	/* font-family: verdana;*/
 	 font-size:20px;
 	 	
 
@@ -124,12 +134,12 @@ a.active , .nav a:hover
 	right: 0;
 	bottom: -50px;
 	color: black;
-	font-family: verdana;
+	
 	text-transform: uppercase;
 }
 .home h1
 {
-	 font-size: 60px;
+	font-size: 60px;
 	padding-right: 60px;
 	border-bottom: 1px solid black;
 
@@ -149,7 +159,7 @@ a.active , .nav a:hover
 	right: auto;
 	top: auto;
 	color: black;
-	font-family: calibri;
+	/*font-family: calibri;*/
 	padding :0 60px;
 	display: none;
 }
@@ -169,7 +179,7 @@ margin-bottom: 20px;
 	width: 1700;
 	align-content: center;
 	color: black;
-	font-family: calibri;
+/*	font-family: calibri;*/
 	padding :10px 300px;
 	display: none;	
 }
@@ -198,7 +208,7 @@ margin-bottom: 20px;
 	top: 100%;
 	
 	color: black;
-	font-family: calibri;
+/*	font-family: calibri;*/
 	padding-top: 200px;
 	display: none;
 }
